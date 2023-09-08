@@ -1,7 +1,9 @@
 # Quiz Num
 
 ## Python Solution 
+```.py
 
+```
 
 ## Paper Programming
 ![]()

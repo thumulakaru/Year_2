@@ -1,4 +1,4 @@
-# Quiz Num
+# Quiz 70
 
 ## Python Solution 
 
