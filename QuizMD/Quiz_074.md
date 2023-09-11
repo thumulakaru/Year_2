@@ -23,8 +23,6 @@ class DataPackage:
         return out
 
 
-
-
 temp_class = DataPackage("80:90:00:00:00:00","192.168.3.3","80:90:00:00:00:01","192.168.4.5","Hello World")
 print(temp_class.build_data())
 ```
@@ -38,4 +36,3 @@ print(temp_class.build_data())
 ![](/Assets/Quiz_074_papercode.jpeg)
 
 **Fig.2:** Paper Programming for Quiz 74
-
