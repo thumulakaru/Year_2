@@ -20,6 +20,6 @@ print(net_profit(a))
 ```
 
 ## Paper Programming
-![](Assets/Quiz_069_papercode.jpeg)
+![](/Assets/Quiz_069_papercode.jpeg)
 
 **Fig.1:** Paper Programming for Quiz 69 

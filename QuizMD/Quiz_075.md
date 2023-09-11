@@ -28,6 +28,6 @@ print(boi.get_output())
 ```
 
 ## Paper Programming
-![](Assets/Quiz_075_papercode.jpeg)
+![](/Assets/Quiz_075_papercode.jpeg)
 
 **Fig.1:** Paper Programming for Quiz Num

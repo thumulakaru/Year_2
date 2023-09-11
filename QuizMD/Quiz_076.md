@@ -36,11 +36,11 @@ print(a.error_checker())
 ```
 
 ### Evidence
-![](Assets/Quiz_076_evidence.png)
+![](/Assets/Quiz_076_evidence.png)
 
 **Fig.1:** Evidence for Python Solution
 
 ## Paper Programming
-![](Assets/Quiz_076_papercode.jpeg)
+![](/Assets/Quiz_076_papercode.jpeg)
 
 **Fig.2:** Paper Programming for Quiz Num

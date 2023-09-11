@@ -29,6 +29,6 @@ print(a.MacGen())
 ```
 
 ## Paper Programming
-![](Assets/Quiz_072_papercode.jpeg)
+![](/Assets/Quiz_072_papercode.jpeg)
 
 **Fig.1:** Paper Programming for Quiz 72

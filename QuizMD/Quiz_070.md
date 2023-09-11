@@ -14,6 +14,6 @@ def ipV4machine():
 ```
 
 ## Paper Programming
-![](![](Assets/Quiz_070_papercode.jpeg))
+![](/Assets/Quiz_070_papercode.jpeg)
 
 **Fig.1:** Paper Programming for Quiz Num

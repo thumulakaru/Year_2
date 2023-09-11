@@ -35,6 +35,6 @@ a = RoutingTable("75:C0:01:03:G4:FB")
 ```
 
 ## Paper Programming
-![](Assets/Quiz_073_papercode.jpeg)
+![](/Assets/Quiz_073_papercode.jpeg)
 
 **Fig.1:** Paper Programming for Quiz 73

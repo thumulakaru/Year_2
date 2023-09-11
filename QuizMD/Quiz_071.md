@@ -32,11 +32,11 @@ print(a.ipv6machine())
 ```
 
 ### Evidence
-![](Assets/Quiz_071_evidence.png)
+![](/Assets/Quiz_071_evidence.png)
 
 **Fig.1:** Evidence of completion of Quiz 71
 
 ## Paper Programming
-![](![](Assets/Quiz_071_papercode.jpeg))
+![](/Assets/Quiz_071_papercode.jpeg)
 
 **Fig.2:** Paper Programming for Quiz 71
