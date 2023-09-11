@@ -1,5 +1,3 @@
-#2023-09-05 Quiz075
-
 class osi_phsyical():
     def __init__(self, input:str):
         self.unprocessed = input

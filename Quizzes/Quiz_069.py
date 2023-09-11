@@ -1,7 +1,3 @@
-# Quiz 69
-
-## Python Solution 
-```.py
 def net_profit(sales:list):
     min, max = sales[0], sales[0]
     for i in range(1, len(sales)):
@@ -17,9 +13,3 @@ def net_profit(sales:list):
 a =[0, 12, 122, 121, 123, 1]
 
 print(net_profit(a))
-```
-
-## Paper Programming
-![](Assets/Quiz_069_papercode.jpeg)
-
-**Fig.1:** Paper Programming for Quiz 69 
