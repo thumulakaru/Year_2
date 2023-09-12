@@ -8,7 +8,7 @@ class PhysicalLayer:
         for i in range(1, len(self.data)):
             num += int(self.data[i])
 
-        if num % 2 != int(self.data[0]):
+        if num % 2 == int(self.data[0]):
             error = True
         return error
 

@@ -3,13 +3,12 @@ def net_profit(sales:list):
     for i in range(1, len(sales)):
         if sales[i] < min:
             min = sales[i]
-
         elif sales[i] > max:
             max = sales[i]
 
     return (max-min)
 
 
-a =[0, 12, 122, 121, 123, 1]
+a =[100, 45, 12, 3, 56, 7]
 
-print(net_profit(a))
+print(f"The net profit is ¥ {net_profit(a)}.")

@@ -19,5 +19,5 @@ class osi_phsyical():
         return out_str[:-1]
 
 
-boi = osi_phsyical("Please Do Not Throw Sausage Pizza Away")
-print(boi.get_output())
+temp_class = osi_phsyical("Please Do Not Throw Sausage Pizza Away")
+print(temp_class.get_output())

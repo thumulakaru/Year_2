@@ -7,19 +7,23 @@ def net_profit(sales:list):
     for i in range(1, len(sales)):
         if sales[i] < min:
             min = sales[i]
-
         elif sales[i] > max:
             max = sales[i]
 
     return (max-min)
 
 
-a =[0, 12, 122, 121, 123, 1]
+a =[100, 45, 12, 3, 56, 7]
 
-print(net_profit(a))
+print(f"The net profit is ¥ {net_profit(a)}.")
 ```
+
+### Evidence
+![](/Assets/Quiz_069_evidence.png)
+
+**Fig.1:** Evidence for Quiz 69
 
 ## Paper Programming
 ![](/Assets/Quiz_069_papercode.jpeg)
 
-**Fig.1:** Paper Programming for Quiz 69 
+**Fig.2:** Paper Programming for Quiz 69 

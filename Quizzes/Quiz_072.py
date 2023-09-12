@@ -20,5 +20,5 @@ class Mac:
         return out
 
 
-a = Mac(1)
+a = Mac(2)
 print(a.MacGen())

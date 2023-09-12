@@ -23,11 +23,15 @@ class osi_phsyical():
         return out_str[:-1]
 
 
-boi = osi_phsyical("Please Do Not Throw Sausage Pizza Away")
-print(boi.get_output())
+temp_class = osi_phsyical("Please Do Not Throw Sausage Pizza Away")
+print(temp_class.get_output())
 ```
+### Evidence
+![](/Assets/Quiz_075_evidence.png)
+
+**Fig.1:** Evidence for Quiz 75
 
 ## Paper Programming
 ![](/Assets/Quiz_075_papercode.jpeg)
 
-**Fig.1:** Paper Programming for Quiz Num
+**Fig.2:** Paper Programming for Quiz Num

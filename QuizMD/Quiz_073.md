@@ -6,33 +6,46 @@ from Quiz_071 import InternetProtocol
 
 
 class RoutingTable:
-    def __init__(self, mac:str):
+    def __init__(self):
         self.routing_table = {}
-        self.mac_in = mac
 
-    def validate(self):
-        return len(self.mac_in) == 17 and self.mac_in.count(":") == 5
+    def validate(self, mac_in: str):
+        return len(mac_in) == 17 and mac_in.count(":") == 5
 
-    def get_ip(self):
-        ip_out = "Error"
-        if self.validate():
-            if self.mac_in in self.routing_table.keys():
-                ip_out = self.routing_table[self.mac_in]
+    def get_ip(self, mac_in):
+        if self.validate(mac_in):
+            ip = ""
+            if mac_in in self.routing_table.keys():
+                ip = self.routing_table[mac_in]
+                unique = False
+                while unique is False:  # Validating IP
+                    temp_class = InternetProtocol(1)
+                    temp_ip = temp_class.ipv6machine()
+                    if temp_ip != ip:
+                        unique = True
+                self.routing_table[mac_in].append(temp_ip[0])  # Adding new IP to the existing list
+
             else:
                 while True:
                     temp_class = InternetProtocol(1)
                     ip = temp_class.ipv6machine()
                     if not ip in self.routing_table.values():
-                        self.routing_table[self.mac_in] = ip
-                        ip_out = ip
+                        self.routing_table[mac_in] = []  # Creating an Empty list for the new MAC in the dictionary
+                        self.routing_table[mac_in].append(ip[0]) #  Adding the new IP to the list
                         break
-                        print(self.routing_table)
-        return ip_out
+        return self.routing_table
 
 
-a = RoutingTable("75:C0:01:03:G4:FB")
-(a.get_ip())
+a = RoutingTable()
+a.get_ip("00:1A:2B:3C:4D:5E")
+a.get_ip("12:34:56:78:90:AB")
+a.get_ip("00:1A:2B:3C:4D:5E")
+print(a.get_ip("FF:EE:DD:CC:BB:AA"))
 ```
+### Evidence
+![](/Assets/Quiz_073_evidence.png)
+
+**Fig.1:** Evidence for Quiz 73
 
 ## Paper Programming
 ![](/Assets/Quiz_073_papercode.jpeg)

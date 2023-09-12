@@ -27,8 +27,12 @@ class Mac:
 a = Mac(1)
 print(a.MacGen())
 ```
+### Evidence
+![](/Assets/Quiz_072_evidence.png)
+
+**Fig.1:** Evidence for Quiz 72
 
 ## Paper Programming
 ![](/Assets/Quiz_072_papercode.jpeg)
 
-**Fig.1:** Paper Programming for Quiz 72
+**Fig.2:** Paper Programming for Quiz 72
