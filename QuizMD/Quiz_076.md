@@ -38,7 +38,7 @@ print(a.error_checker())
 ### Evidence
 ![](/Assets/Quiz_076_evidence.png)
 
-**Fig.1:** Evidence for Python Solution
+**Fig.1:** Evidence for Quiz 76
 
 ## Paper Programming
 ![](/Assets/Quiz_076_papercode.jpeg)

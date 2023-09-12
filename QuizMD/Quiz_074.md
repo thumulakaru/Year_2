@@ -30,7 +30,7 @@ print(temp_class.build_data())
 ### Evidence
 ![](/Assets/Quiz_074_evidence.png)
 
-**Fig.1** Evidence of completion of Quiz 74 in Python
+**Fig.1** Evidence for Quiz 74
 
 ## Paper Programming
 ![](/Assets/Quiz_074_papercode.jpeg)
