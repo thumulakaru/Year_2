@@ -30,11 +30,11 @@ class AverageList:
 ```
 
 ### Evidence
-![](/Assets/Quiz_80_evidence.png)
+![](/Assets/Quiz_080_evidence.png)
 
 **Fig.1:** Evidence for Quiz 80
 
 ## Paper Programming
-![](/Assets/Quiz_80_papercode.jpeg)
+![](/Assets/Quiz_080_papercode.jpeg)
 
 **Fig.2:** Paper Programming for Quiz 80
