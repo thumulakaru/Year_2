@@ -23,4 +23,5 @@ def sort():
 
     return out_col.data
 
+
 print(sort())
