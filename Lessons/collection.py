@@ -1,8 +1,8 @@
 # Collection
 class collection:
-    def __init__(self):
-        self.data = []
-        self.location = 1
+    def __init__(self, data:list):
+        self.data = data
+        self.location = 0
 
     def addItem(self, item):
         self.data.append(item)
@@ -24,10 +24,3 @@ class collection:
             item = f"{red}[ERROR]Collection out of index{end_code}"
 
         return item
-
-# Imagining how the user would use our ADT
-x = collection()
-x.addItem("bob")
-print(x.isEmpty())
-print(x.hasNext())
-print(x.getNext())
