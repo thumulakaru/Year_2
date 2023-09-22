@@ -1,7 +1,3 @@
-# Quiz 081+1
-
-## Python Solution 
-```.py
 from Lessons.adts import queue
 
 
@@ -22,14 +18,10 @@ def sort(in_q:queue):
         in_q.enqueue(element)
 
     return in_q.data
-```
 
-### Evidence
-![](/Assets/Quiz_081`+1_evidence.png)
 
-**Fig.1:** Evidence for Quiz Num
-
-## Paper Programming
-![](/Assets/Quiz_081`+1_papercode.jpg)
-
-**Fig.2:** Paper Programming for Quiz Num
+q = queue()
+z = ["Smith, John", "Doe, Bob"]
+for elem in z:
+    q.enqueue(elem)
+print(sort(q))

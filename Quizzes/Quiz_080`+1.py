@@ -1,4 +1,5 @@
-from Lessons.collection import collection
+from Lessons.adts import collection
+
 
 def sort():
     in_col = collection(["bob", "alice", "zoe"])
