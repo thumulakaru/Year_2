@@ -69,3 +69,13 @@ class stack:
 
     def __repr__(self):
         return f"<Stack> {self.data}"
+
+# Single Linked List
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+        self.previous = None
+
+    def __repr__(self):
+        return f"<Node> {self.data}"
