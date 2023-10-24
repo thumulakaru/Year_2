@@ -70,6 +70,7 @@ class stack:
     def __repr__(self):
         return f"<Stack> {self.data}"
 
+
 # Single Linked List
 class Node:
     def __init__(self, data):
@@ -78,4 +79,17 @@ class Node:
         self.previous = None
 
     def __repr__(self):
-        return f"<Node> {self.data}"
+        out_str = f"Node[{self.data}]"
+        temp = self.next
+        while temp is not None:
+            out_str += f" -> Node[{temp.data}]"
+            temp = temp.next
+        return out_str
+
+    def addNode(self, node):
+        if self.next:
+            temp = self.next
+            node.next = temp
+            self.next = node
+        else:
+            self.next = node
