@@ -35,14 +35,5 @@ class Screen():
             out_str += "\n"
         return out_str
 
-# Smiley face
-test = Screen(10, 8)
-test.flipPixel(4, 1)
-test.flipPixel(4, 6)
-test.flipPixel(5, 2)
-test.flipPixel(5, 3)
-test.flipPixel(5, 4)
-test.flipPixel(5, 5)
+test = Screen(500, 500)
 print(test)
-
-
