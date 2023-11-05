@@ -32,11 +32,11 @@ print(sunday.getProteininPercantage())
 ```
 
 ### Evidence
-![](/Assets/Quiz_086_evidence.png)
+![](/Assets/Quiz_087_evidence.png)
 
 **Fig.1:** Evidence for Quiz 86
 
 ## Paper Programming
-![](/Assets/Quiz_086_papercode.jpeg)
+![](/Assets/Quiz_087_papercode.jpeg)
 
 **Fig.2:** Paper Programming for Quiz 86
