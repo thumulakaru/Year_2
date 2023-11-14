@@ -6,4 +6,4 @@
 **Fig.1:** Paper Programming for Quiz 91
 
 ## Solution
-14 12 53 33
+"14 12 53 33 "
