@@ -93,3 +93,25 @@ class Node:
             self.next = node
         else:
             self.next = node
+
+# Binary Tree
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.left = None
+        self.right = None
+
+    def __repr__(self):
+        return f"Node[{self.data}]"
+
+    def addNode(self, node):
+        if node.data < self.data:
+            if self.left:
+                self.left.addNode(node)
+            else:
+                self.left = node
+        else:
+            if self.right:
+                self.right.addNode(node)
+            else:
+                self.right = node
