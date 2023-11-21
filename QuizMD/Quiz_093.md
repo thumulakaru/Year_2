@@ -33,7 +33,7 @@ print(invert(T3))
 ## Paper Programming
 ![](/Assets/Quiz_093_papercode.jpeg)
 
-**Fig.2:** Paper Programming for Quiz Num
+**Fig.2:** Paper Programming for Quiz 93
 
 ## Part B
 1011+1101 = 11000
